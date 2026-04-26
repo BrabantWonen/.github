@@ -1,0 +1,7 @@
+{
+  "name": "Node.js CI (BrabantWonen)",
+  "description": "Lint, typecheck, test en build voor een Node.js project. Voldoet aan de minimale CI-checks van de organisatiegids.",
+  "iconName": "nodejs",
+  "categories": ["JavaScript", "TypeScript"],
+  "filePatterns": ["package.json$"]
+}
