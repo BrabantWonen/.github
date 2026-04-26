@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint
+        run: echo "Vervang dit met je lint-commando"
+
+      - name: Typecheck
+        run: echo "Vervang dit met je typecheck-commando"
+
+      - name: Test
+        run: echo "Vervang dit met je test-commando"
+
+      - name: Build
+        run: echo "Vervang dit met je build-commando"
