@@ -1,0 +1,6 @@
+{
+  "name": "Generieke CI (BrabantWonen)",
+  "description": "Lege CI-skeleton met lint, typecheck, test en build placeholders. Vul de commando's in voor je tech-stack.",
+  "iconName": "octocat",
+  "categories": ["Build & deploy"]
+}
