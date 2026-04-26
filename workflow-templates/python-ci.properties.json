@@ -1,0 +1,7 @@
+{
+  "name": "Python CI (BrabantWonen)",
+  "description": "Lint (ruff), typecheck (mypy) en test (pytest) voor een Python-project.",
+  "iconName": "python",
+  "categories": ["Python"],
+  "filePatterns": ["requirements.*\\.txt$", "pyproject\\.toml$"]
+}
